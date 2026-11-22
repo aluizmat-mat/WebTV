@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebTV Ao Vivo</title>
+    <title>Minha WebTV Ao Vivo</title>
     <style>
         body {
             margin: 0;
@@ -29,43 +29,36 @@
             font-size: 12px;
             font-weight: bold;
             margin-left: 10px;
-            animation: pulse 1.5s infinite;
         }
         .player-container {
-            width: 90%;
+            width: 95%;
             max-width: 1000px;
-            margin-top: 30px;
+            margin-top: 25px;
             aspect-ratio: 16 / 9;
             background: #000;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.8);
             border-radius: 8px;
             overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.8);
         }
         iframe {
             width: 100%;
             height: 100%;
             border: none;
         }
-        @keyframes pulse {
-            0% { opacity: 1; }
-            50% { opacity: 0.4; }
-            100% { opacity: 1; }
-        }
     </style>
 </head>
 <body>
 
     <header>
-        <span style="font-size: 1.5rem; font-weight: bold;">WEBTV</span>
+        <span style="font-size: 1.4rem; font-weight: bold;">MINHA WEBTV</span>
         <span class="live-badge">AO VIVO</span>
     </header>
 
     <div class="player-container">
-        <!-- Substitua SEU_ID_DO_VIDEO pelo ID da sua live -->
+        <!-- Cole o link copiado do celular no lugar do link abaixo -->
         <iframe 
-            src="https://www.youtube.com/embed/live_stream?channel=UCMtJLw4wJQBZnw6rjCN5rCQ &autoplay=1" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen>
+            src="https://vdo.ninja/?view=mQHRiDm&cleanoutput&autostart" 
+            allow="autoplay; camera; microphone; fullscreen; picture-in-picture">
         </iframe>
     </div>
 
